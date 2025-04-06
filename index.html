@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="Title">INCOME EXPENSE CALCULATOR</h1>
+    <div id="container">
+        <div id="ledger">
+           <h2>Available Balance</h2>
+           <h1 id="balance">₹ 0.00</h1>
+           <div id="inc-exp">
+              <div id="income">
+                <h4>INCOME</h4>
+                <p id="inc-amt">₹ 0.00</p>
+              </div>
+              <div id="expense">
+                <h4>EXPENSE</h4>
+                <p id="exp-amt">₹ 0.00</p>
+              </div>
+           </div>
+           <form class="input-type" id="form">
+            <div>
+                <label for="desc">Description</label><br>
+                <input type="text" class="in-type" id="desc" placeholder="Enter Description"/>
+            </div>
+            <br>
+            <div>
+                <label for="amt">Amount</label><br>
+                <input type="number" class="in-type" id="amt" placeholder="Enter Amount"/>
+            </div>
+            <button class="btn" id="add-trans" type="submit">Add Transaction</button>
+           </form>
+          
+        </div>
+        <div id="transaction">
+          <h2 class="trans-details" id="transaction-detail" >Transaction Details</h2>
+          <ul id="unorderli">
+
+          </ul>
+          
+        </div>
+    <script src=./script.js></script>
+</body>
+</html>
