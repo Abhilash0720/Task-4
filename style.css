@@ -9,6 +9,12 @@ body{
     color: white;
     text-align: center;
 }
+#transoption{
+    height: 35px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    width: 370px;
+}
 #container{
     border: 1px solid black;
     background-color: aquamarine;
